@@ -2,4 +2,4 @@
 
 
 <h1>My Web Projects</h1>
-<a href="classdemo/index.html">Lab 1 Demo</a>
+<a href="Lab1/index.html">Lab 1 Demo</a>
