@@ -22,7 +22,16 @@
     justify-content: space-between;
 }
 
-.h1{
-    font-size: large;
+.h1,h2,h3{
     text-align: center;
+}
+
+.ol{
+    text-align: center;
+    list-style-type: decimal;
+}
+
+.ul{
+    text-align: center;
+    list-style-type: disc;
 }
