@@ -5,23 +5,37 @@
 }
 .hero{
     width: 100%;
-    height: 85vh;
-    background-image:url(images/itatchi.jpg) ;
+    height: 120vh;
+    background-color:white;
     background-size: cover;
     background-position: center;
     position:relative;
     overflow: hidden;
 }
 .logo{
-    width: 100px;
+    width: 90px;
+    height:20vh;
     cursor: pointer;
     offset-position: left;
 }
 .navbar{
-    width: 85%;
-    height: 15%;
+    width: 100%;
+    height: 7%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #556b2f;
 }
+
+.h1{
+    
+    text-align: center;
+    
+}
+
+.box{
+    align-items: center;
+    text-align: center;
+}
+
