@@ -28,12 +28,20 @@
     background-color: #556b2f;
 }
 
-.h1{
+.span{
     
     text-align: center;
+    font-family:"Courier New", Courier, monospace;
+    font-size: xx-large;
+    font-style: normal;
     
 }
 
+.h1{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
 .box{
     align-items: center;
     text-align: center;
