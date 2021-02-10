@@ -20,12 +20,12 @@
 }
 .navbar{
     width: 100%;
-    height: 7%;
+    height: 20vh;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #556b2f;
+    background-color: black;
 }
 
 .span{
@@ -34,6 +34,7 @@
     font-family:"Courier New", Courier, monospace;
     font-size: xx-large;
     font-style: normal;
+    color: white;
     
 }
 
@@ -47,3 +48,7 @@
     text-align: center;
 }
 
+.a:hover{
+    color:tan;
+    text-decoration: none;
+}
