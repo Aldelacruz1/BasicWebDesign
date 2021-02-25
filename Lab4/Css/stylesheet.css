@@ -99,3 +99,8 @@ footer{
 main a:hover{
     color:olive;
 }
+
+.active{
+    background-color: black;
+    color: white;
+}
