@@ -42,3 +42,24 @@ nav li a{
     height: 50px;
     line-height: 50px;
 }
+
+nav li a:hover{
+    background-color: black;
+    color: white;
+    text-shadow: none;
+}
+
+section, aside{
+    padding: 20px;
+
+}
+
+section{
+    background-color:white;
+    color: black;
+}
+
+aside{
+    background-color: black;
+    color: white;
+}
