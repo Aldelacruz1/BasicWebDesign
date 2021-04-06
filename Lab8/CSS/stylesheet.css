@@ -150,11 +150,12 @@ nav li a {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     width: 150px;
+    font-size: 1cm;
 
 }
 
 nav li a:hover {
-    color: black;
+    color:white;
 
 }
 
