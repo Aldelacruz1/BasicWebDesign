@@ -166,5 +166,11 @@ nav li a:hover {
 
 }
 
+video {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}
+
 
 }
