@@ -47,7 +47,7 @@ header h1 {
     line-height: 250px;
     text-align: center;
     text-shadow: 2px 2px 2px black;
-    font-size: 50px;
+    font-size: 25px;
     
 }
 
@@ -135,7 +135,10 @@ header {
 }
 
 header h1 { 
-    line-height: 475px;
+    line-height: 350px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
 
 }
 
