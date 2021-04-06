@@ -1,0 +1,147 @@
+/* Global Styles*/
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+video {
+    max-width: 100%;
+}
+
+a {
+    color:black;
+    text-align: center;
+    display: block;
+    
+}
+
+a:hover {
+    color: red;
+}
+
+/* Mobile Styles */
+
+#container{
+    margin: 10px;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    line-height: 250px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav li {
+    display: block;
+
+}
+
+nav li a {
+    display: block;
+    background-color: white;
+    padding: 15px;
+    margin: 2px 0;
+    color: black;
+    font-size: 3.3cm;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: black;
+    color: white;
+}
+
+section {
+    background-color:black;
+    margin-top: 2px;
+    padding: 10px;
+
+}
+
+section h2, section h3 {
+    color: white;
+    text-align: center;
+
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    margin: 10px 0;
+    background-color: white;
+
+}
+
+td, th {
+    color: red;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 5px;
+}
+
+/* Tablet Style */
+
+@media only screen and (min-width: 768px) {
+
+header {
+    height: 325px;
+}
+
+nav {
+    background-color: white;
+    padding: 5px 0;
+    margin-top: 2px;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav li a {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 150px;
+
+}
+
+nav li a:hover {
+    color: black;
+
+}
+}
