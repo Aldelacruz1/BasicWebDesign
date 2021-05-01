@@ -33,8 +33,7 @@ a:hover {
     
 }
  header{
-    background-position: center center;
-    height: 400px;
+
     background-image: url('../Images/AlyssaLogo.png'); 
     background-size: 100%;
     background-color: white;
@@ -80,9 +79,9 @@ footer{
 
 
 header{
-    height: 153px;
-    background-image: url('../Images/AlyssaLogo.png'); 
+    height: 300px; 
     background-color: white;
+    background-size: 100%;
     
     
 }
@@ -108,8 +107,8 @@ nav li a{
     font-size: .5cm;
     text-decoration: none;
     margin: 5px 0;
-    height: 20px;
-    line-height: 20px;
+    height: 10px;
+    line-height: 10px;
 }
 
 nav li a:hover{
@@ -117,6 +116,94 @@ nav li a:hover{
     color: white;
     text-shadow: none;
 }
+
+/* tablet styles*/
+
+@media screen and (min-width: 768px) {
+    header img{
+        display: block;
+        width: 654;
+        margin: 30px auto;
+
+
+    }
+    header{
+        height: 400px; 
+        background-color: white;
+        background-size: 100%;
+    }
+        
+    nav li{
+        display: inline-block;
+
+    }
+
+    nav li a{
+        width: 350px;
+    }
+
+    section img, aside img{
+        display: block;
+        width: 754;
+        margin: 0 auto;
+    }
+    section h1{
+        font-size: 2cm;
+
+    }
+    aside h2, aside h3{
+        font-size: 1.2cm;
+    }
+
+}
+
+/* Desktop styles */
+
+@media screen and (min-width:1024px){
+  
+    header{
+        height: 900px; 
+        background-color: white;
+        background-size: 100%;
+        
+
+    }
+    nav{
+        background-color: black;
+
+    }
+
+    nav li a{
+        width: 175px;
+
+    }
+
+    nav li :hover{
+        border-radius: 10px;
+        color: black;
+        text-shadow: 1px 1px 1px;
+    }
+    main{
+        display: flex;
+    }
+
+    section, aside{
+        margin: 50px;
+    }
+
+    section{
+        width: 70%;
+    }
+    aside {
+        width: 30% ;
+    }
+    footer{
+        border-radius: 0 0 20px 20px;
+    }
+
+}
+
+
 
 
 
