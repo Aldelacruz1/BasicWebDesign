@@ -1,0 +1,124 @@
+/* Global Styles*/
+
+img{
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    align-items: center;
+}
+
+
+
+a {
+    color: black;
+    text-align: center;
+    display: block;
+    
+}
+
+a:hover {
+    color: grey;
+
+}
+
+#container{
+    width: 95%;
+    margin: auto;
+    border: 5px solid white;
+    background-color: white;
+    height: 100%;
+    
+}
+ header{
+    background-position: center center;
+    height: 400px;
+    background-image: url('../Images/AlyssaLogo.png'); 
+    background-size: 100%;
+    background-color: white;
+ }
+
+ nav{
+    background-color: white;
+    text-align: center;
+    padding: 20px 0 15px 0;
+
+}
+
+nav a{
+    background-color: white;
+    padding: 5px 25px 20px;
+    font-size: 1cm;
+    text-decoration: none;
+    
+
+}
+
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    display: block;
+}
+
+/* Mobile Styles*/
+
+
+#container{
+    width: 95%;
+    margin: auto;
+    border: 5px solid white;
+    background-color: white;
+    height: 100%;
+
+}
+
+
+header{
+    height: 153px;
+    background-image: url('../Images/AlyssaLogo.png'); 
+    background-color: white;
+    
+    
+}
+
+nav{
+    text-align: center;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: block;
+}
+
+nav li a{
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: .5cm;
+    text-decoration: none;
+    margin: 5px 0;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav li a:hover{
+    background-color: black;
+    color: white;
+    text-shadow: none;
+}
+
+
+
+
+ 
