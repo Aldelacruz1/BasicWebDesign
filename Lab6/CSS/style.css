@@ -5,7 +5,7 @@ img{
 }
 
 body{
-    background-color: black;
+    background-color:white;
 }
 
 /* Mobile Styles*/
@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background-color: black;
+    background-color: white;
     padding: 20px;
 }
 
@@ -127,7 +127,7 @@ footer{
   
 
     nav{
-        background-color: black;
+        background-color: white;
 
     }
 
