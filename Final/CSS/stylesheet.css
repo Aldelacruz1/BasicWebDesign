@@ -110,36 +110,24 @@ nav li a:hover{
 /* tablet styles*/
 
 @media screen and (min-width: 768px) {
-    header img{
+header img{
+    display: block;
+    width: 654;
+    margin: 30px auto;
 
-        width: 654;
-        margin: 30px auto;
 
-
-    }
+}
   
         
-    nav li{
-        display: inline-block;
+nav li{
+    display: inline-block;
 
-    }
+}
 
-    nav li a{
-        width: 350px;
-    }
+nav li a{
+    width: 350px;
+}
 
-    section img, aside img{
-        display: block;
-        width: 754;
-        margin: 0 auto;
-    }
-    section h1{
-        font-size: 2cm;
-
-    }
-    aside h2, aside h3{
-        font-size: 1.2cm;
-    }
 
 }
 
