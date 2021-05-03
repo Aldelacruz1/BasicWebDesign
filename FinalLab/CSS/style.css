@@ -10,7 +10,7 @@ img{
 }
 iframe{
     max-width: 100%;
-    max-height: 315;
+    max-height: 70%;
     
 }
 
@@ -100,7 +100,7 @@ aside{
 
 aside h2, aside h3{
     text-align: center;
-    font-size: 1.3m;
+    font-size: 1.3cm;
 }
 
 aside hr{
@@ -120,7 +120,7 @@ footer{
 @media screen and (min-width: 768px) {
     header img{
         display: block;
-        width: 654;
+        width: 100%;
         margin: 30px auto;
 
 
@@ -145,7 +145,7 @@ footer{
 
     section img, aside img{
         display: block;
-        width: 754;
+        width: 754px;
         margin: 0 auto;
     }
     section h1{
