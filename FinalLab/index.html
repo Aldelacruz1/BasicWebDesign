@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="dist/jquery.slicknav.min.js"></script>
     <script>
         $(function(){
             $('#menu').slicknav();
+            $('.slider').bxSlider();
         });
     </script>
 </head>
@@ -33,8 +36,12 @@
         <main>
             <section>
                 <h1>Welcome to My Portfolio</h1><br><br>
+                <div class="slider">
+                    <div><img src="images/Me.PNG" alt="main"></div>
+                    <div>I am another slide.</div>
+                  </div>
 
-                <img src="images/Me.PNG" alt="main"><br><br>
+               <br><br>
 
                 <p> My name is Alyssa Dela Cruz. I am currently a student at Chattanooga State Community College. I am majoring in Graphic Design with a focus in Technology. My goal is to pursue a career that constantly gets me out of my comfort zone and ensures that I am a positive influence on others.</p>
 
