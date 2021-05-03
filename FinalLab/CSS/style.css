@@ -19,7 +19,7 @@ p{
 
 /* Mobile Styles*/
 
-menu{
+#menu{
     display: none;
 }
 
@@ -110,6 +110,14 @@ footer{
 
     }
 
+    #menu{
+        display:block
+    }
+
+    .slicknav_menu{
+        display: none;
+    }
+
     nav li{
         display: inline-block;
 
@@ -142,6 +150,13 @@ footer{
     nav{
         background-color: white;
 
+    }
+    #menu{
+        display:block
+    }
+
+    .slicknav_menu{
+        display: none;
     }
 
     nav li a{
