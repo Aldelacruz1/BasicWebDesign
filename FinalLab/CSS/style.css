@@ -19,6 +19,10 @@ p{
 
 /* Mobile Styles*/
 
+menu{
+    display: none;
+}
+
 #container{
     margin: 10px;
 }
